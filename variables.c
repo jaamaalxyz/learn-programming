@@ -9,7 +9,7 @@ int main() {
   // varibale syntax in C
   // datatype variable_name;
     
-  // int num1; // varibale can be declare without initialization
+  // int num1; // variable can be declare without initialization
   // num1 = 5; // and initialize the value later
   // printf("Value of num1: %d\n", num1);
 
@@ -61,7 +61,23 @@ int main() {
   // invalid example:
   // int float = 10; // error occured
 
-  // 4. 
+  // 4. variable name can not hold any blank spaces
+
+  // valid example:
+  // camelCase
+  int numNine = 9;
+  printf("Value of numNine: %d\n", numNine);
+  // snake_case
+  int num_nine = 9;
+  printf("Value of num_nine: %d\n", num_nine);
+  // PascalCase
+  int NumNine = 9;
+  printf("Value of NumNine: %d\n", NumNine);
+  // UPPERCASE
+  const int NINE = 9;
+  printf("Value of NINE: %d\n", NINE);
+
+
 
   
   return 0;
