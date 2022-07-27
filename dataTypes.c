@@ -41,7 +41,8 @@ int main() {
   // the value range between 1 to 2
   // printf("DBL PRECISION: %d\n", DBL_DIG);
   // printf("DBL MIN VALUE: %f\n", DBL_MIN);
-  // printf("DBL MAX VALUE: %f\n", DBL_MAX);
+  printf("DBL MAX VALUE: %f\n", DBL_MAX);
+  
 
   return 0;
 }
